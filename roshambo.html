@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <audio controls autoplay >
+      <source src="music.mp3" type="audio/mpeg">
+    </audio>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ROSHAMBO GAME</title>
+    <link rel="stylesheet" href="roshambo.css" />
+   
+    
+  </head>
+  <center>
+    <body>
+      
+      <img src="roshe.jpg" height="300" width="900">
+      <style>
+        body {
+          background-image: url(giphy.gif);
+        }
+      </style>
+      <h1>Rock, Paper, Scissors!</h1>
+      <h2>Computer Choice: <span id="pc"></span></h2>
+      <h2>Your Choice: <span id="player"></span></h2>
+      <h2>Result: <span id="result"></span></h2>
+      <h2>your score : <span id="user_score"></span></h2>
+      <h2>Computer score : <span id="pc_score"></span></h2>
+    <center>
+          <button id="rock" type="button" class="button"  >Rock</button>
+          <button id="paper" type="button" class="button" >Paper</button>
+          <button id="scissors" type="button" class="button" > Scissors</button>
+    </center>
+    
+      <div class="grid-container">
+        <div><img src="rock.jpg" class="img r" height="150" width="150" /></div>
+        <div><img src="paper.jpg" class="img p" height="150" width="150" /></div>
+        <div><img src="sissors.jpg" class="img s" height="150" width="150" /></div>
+      </div>
+
+      <script src="jquery.js"></script>
+      <script src="roshambo.js"></script>
+    </body>
+  </center>
+</html>
